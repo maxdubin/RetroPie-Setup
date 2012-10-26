@@ -562,7 +562,7 @@ function install_snesdev()
     if [[ -d "$rootdir/SNESDev-Rpi" ]]; then
         rm -rf "$rootdir/SNESDev-Rpi"
     fi
-    git clone git://github.com/petrockblog/SNESDev-RPi.git "$rootdir/SNESDev-Rpi"
+    git clone git://github.com/maxdubin/SNESDev-RPi.git "$rootdir/SNESDev-Rpi"
     pushd "$rootdir/SNESDev-Rpi"
     make clean
     make
